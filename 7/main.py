@@ -40,6 +40,7 @@ def main():
 
     print("Коэффициенты регрессии:\nb_0 = {} \nb_1 = {}".format(linregress.intercept, linregress.slope))
 
+    # Построение линии регрессии
     plot_regression_line(x, y, [linregress.intercept, linregress.slope])
 
 
